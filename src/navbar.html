@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinguin</title>
+    <link defer href="./output.css" rel="stylesheet">
+</head>
+<body>
+<nav class="absolute top-0 left-0 right-0 z-10 flex justify-between items-center px-4 py-4 bg-[#353B48]">
+    <a href="/Te_veel_vrije_tijd/Backend-eindproject/src/" class="button">
+      <img class="w-[50px]" src="./IMG/Home.png" alt="">
+    </a>
+    <div class="flex gap-9 mx-10">
+      <a class="hidden md:block A] rounded-[35px] py-[5px] px-[10px] text-white" href="Pinguin.php">Home</a>
+      <a class="hidden md:block  rounded-[35px] py-[5px] px-[10px] text-white" href="">Habitat</a>
+      <a class="hidden md:block  rounded-[35px] py-[5px] px-[10px] text-white" href="">Voeding</a>
+      <a class="hidden md:block  rounded-[35px] py-[5px] px-[10px] text-white" href="">Gedrag</a>
+      <a class="hidden md:block  rounded-[35px] py-[5px] px-[10px] text-white" href="">Bedreiging</a>
+      <button id="menu-toggle" class="md:hidden text-white hover:bg-white hover:text-black transition duration-500 py-2 px-4 rounded-[35px]">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      <div id="mobile-menu" class="hidden md:hidden absolute bg-black text-white py-2 px-4 top-0 right-0 left-0">
+        <a href="Trails.php" class="block py-1">Trails</a>
+        <a href="" class="block py-1">Feedback</a>
+      </div>
+    </div>
+  </nav>
+</body>
+</html>
