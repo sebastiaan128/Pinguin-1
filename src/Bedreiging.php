@@ -13,10 +13,10 @@ include('navbar.html');
             </p>
         </div>
         <div class="flex items-center justify-center">
-            <img src="IMG/3-pinguin.png" alt="Image" class="w-[700px] h-auto">
+            <img src="IMG/blije-pinguin.png" alt="Image" class="w-[700px] h-auto">
         </div>
         <div class="flex items-center justify-center md:order-1 order-2">
-            <img src="IMG/habitat.png" alt="Image" class="w-[700px] h-auto">
+            <img src="IMG/groep-pinguin.png" alt="Image" class="w-[700px] h-auto">
         </div>
         <div class="flex items-center justify-center p-4 order-1 md:order-2">
             <p class="text-lg font-medium">
