@@ -17,19 +17,24 @@
 
 <body>
   <nav class="top-0 left-0 right-0 z-10 flex justify-between items-center px-4 bg-[#353B48]">
-    <a href="/Te_veel_vrije_tijd/Backend-eindproject/src/" class="button">
+    <a href="/Te_veel_vrije_tijd/Pinguin-1/src/Pinguin.php" class="button">
       <img class="w-[70px]" src="./IMG/Logo.png">
     </a>
 
     <div class="flex flex-grow justify-center gap-9">
-      <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white" href="">Habitat</a>
-      <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white" href="">Voeding</a>
       <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white"
         href="/Te_veel_vrije_tijd/Pinguin-1/src/Pinguin.php">Home</a>
-      <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white" href="">Gedrag</a>
-      <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white" href="">Bedreiging</a>
+      <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/Habitat.php">Habitat</a>
+      <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/Voeding.php">Voeding</a>
+      <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/Gedrag.php">Gedrag</a>
+      <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/Bedreiging.php">Bedreiging</a>
     </div>
-    <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white" href="">Contact</a>
+    <a class="hidden md:block rounded-[35px] py-[5px] px-[10px] text-white"
+      href="/Te_veel_vrije_tijd/Pinguin-1/src/Contact.php">Contact</a>
 
     <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -37,13 +42,20 @@
       </svg>
     </button>
 
-    <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center space-y-3 bg-[#353B48] absolute top-16 left-0 right-0 z-20 py-4">
-      <a class="block rounded-[35px] py-[5px] px-[10px] text-white" href="">Habitat</a>
-      <a class="block rounded-[35px] py-[5px] px-[10px] text-white" href="">Voeding</a>
-      <a class="block rounded-[35px] py-[5px] px-[10px] text-white" href="/Te_veel_vrije_tijd/Pinguin-1/src/Pinguin.php">Home</a>
-      <a class="block rounded-[35px] py-[5px] px-[10px] text-white" href="">Gedrag</a>
-      <a class="block rounded-[35px] py-[5px] px-[10px] text-white" href="">Bedreiging</a>
-      <a class="block rounded-[35px] py-[5px] px-[10px] text-white" href="">Contact</a>
+    <div id="mobile-menu"
+      class="hidden md:hidden flex flex-col items-center space-y-3 bg-[#353B48] absolute top-16 left-0 right-0 z-20 py-4">
+      <a class="block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/Habitat.php">Habitat</a>
+      <a class="block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/voeding.php">Voeding</a>
+      <a class="block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/Pinguin.php">Home</a>
+      <a class="block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/Gedrag.php">Gedrag</a>
+      <a class="block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/Bedreiging.php">Bedreiging</a>
+      <a class="block rounded-[35px] py-[5px] px-[10px] text-white"
+        href="/Te_veel_vrije_tijd/Pinguin-1/src/Contact.php">Contact</a>
     </div>
 
     <script>
@@ -51,10 +63,10 @@
       const mobileMenu = document.getElementById('mobile-menu');
 
       menuToggle.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
+        mobileMenu.classList.toggle('hidden');
       });
     </script>
 
-    
+
   </nav>
 </body>

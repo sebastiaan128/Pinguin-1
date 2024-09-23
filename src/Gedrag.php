@@ -4,7 +4,7 @@ include('navbar.html');
 
 <body>
     
-    <h1 class="text-center mt-5 text-[#1E90FF] text-[20px] md:text-[50px] ">Habitat/Leefomgeving</h1>
+    <h1 class="text-center mt-5 text-[#1E90FF] text-[20px] md:text-[50px] ">Gedrag/Sociale Structuur</h1>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4 mt-5">
         <div class="flex items-center justify-center p-4">
             <p class="text-lg font-medium">
@@ -12,10 +12,10 @@ include('navbar.html');
             </p>
         </div>
         <div class="flex items-center justify-center">
-            <img src="IMG/3-pinguin.png" alt="Image" class="w-[700px] h-auto object-cover">
+            <img src="IMG/3-pinguin.png" alt="Image" class="w-[700px] h-auto">
         </div>
         <div class="flex items-center justify-center md:order-1 order-2">
-            <img src="IMG/habitat.png" alt="Image" class="w-[700px] h-auto object-cover">
+            <img src="IMG/habitat.png" alt="Image" class="w-[700px] h-auto">
         </div>
         <div class="flex items-center justify-center p-4 order-1 md:order-2">
             <p class="text-lg font-medium">
