@@ -17,6 +17,12 @@ include('navbar.html');
 
             Ze hebben zich meesterlijk aangepast aan het leven in zee, waar ze zich behendig door het water bewegen om voedsel, zoals vis en krill, te vangen. Hun zwarte rug en witte buik zorgen voor natuurlijke camouflage, waardoor ze minder opvallen voor roofdieren. Pinguïns staan ook bekend om hun sociale gedrag; ze vormen grote kolonies, waar ze samen broeden en elkaar beschermen tegen vijanden en extreme weersomstandigheden. Dankzij deze eigenschappen zijn pinguïns een van de meest geliefde en herkenbare dieren ter wereld.</p>
     </div>
+    <div class="flex justify-center mb-5">
+    <iframe class="" width="560" height="320" src="https://www.youtube.com/embed/obCgWzUvEUg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+    
 </body>
 
 <?php
