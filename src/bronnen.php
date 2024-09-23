@@ -1,6 +1,8 @@
 <?php
 include('navbar.html');
 ?>
+<body>
+    
 
 <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -28,7 +30,7 @@ include('navbar.html');
         </div>
     </div>
 </div>
-
+</body>
 
 <?php
 include('footer.html');
