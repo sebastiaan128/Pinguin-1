@@ -5,8 +5,10 @@ include('navbar.html');
 <body>
     <div class="flex justify-center items-center ">
         <img class="w-full h-[500px] object-cover " src="IMG/home.png" alt="">
-            <p class="absolute flex items-center justify-center text-[#FFA502] text-[70px] lg:text-[175px] font-extralight text-shadow  ">Pinguin</p>
+            <p class="absolute flex items-center justify-center text-[#24C8BC] text-[70px] lg:text-[175px] font-extralight text-shadow">Pinguin</p>
     </div>
+    <h1 class="mt-5 text-center text-[#1E90FF] text-[20px] md:text-[50px]">Het leven van een pinguin</h1>
+
     <div class="text  flex justify-center mt-[90px] mb-[90px]">
         <p class="w-9/12 items-center">
             Pinguïns, ook wel bekend als vetganzen, vormen een orde van niet-vliegende zeevogels die uitsluitend voorkomen op het zuidelijk halfrond. Ze behoren tot de orde Sphenisciformes, klasse Aves (vogels). Alle hedendaagse pinguïns behoren tot de familie Spheniscidae, maar er zijn uitgestorven soorten die buiten deze kroongroep vallen. Pinguïns zijn gemakkelijk te herkennen en hebben zich volledig aangepast aan extreme kou en het leven in zee, met een warm verenkleed als bescherming. <br><br>
